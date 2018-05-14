@@ -1,0 +1,18 @@
+.header {
+    padding: 20px;
+    background: #04223d;
+    width: 100%;
+    height: 64px;
+    color: white;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nwpost {
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    align-items: flex-end;
+    position: fixed;
+    right: 60px;
+}

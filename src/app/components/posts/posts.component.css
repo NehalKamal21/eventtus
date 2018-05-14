@@ -1,0 +1,39 @@
+mat-card {
+    margin: 20px;
+}
+
+.postContainer {
+    overflow: auto;
+    margin-bottom: 64px;
+}
+
+.example-card {
+    max-width: 90%;
+}
+
+.example-header-image {
+    background-image: url('/assets/images/user.png');
+    background-size: cover;
+}
+
+::ng-deep .mat-card-header-text {
+    flex: 1;
+}
+
+.morebtn {
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 20px;
+}
+
+.more {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 500;
+    color: #105f9c;
+}

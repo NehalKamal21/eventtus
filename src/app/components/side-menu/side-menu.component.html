@@ -1,0 +1,18 @@
+<mat-list>
+    <mat-list-item (click)="openCloseMenu()">
+        <button mat-icon-button>
+    <mat-icon svgIcon="menu"></mat-icon>
+  </button>
+    </mat-list-item>
+    <mat-list *ngFor="let menuItem of menu;">
+        <mat-list-item (click)="navigate(menuItem)">
+            <button disableRipple mat-icon-button>
+            </button>
+            <p *ngIf="menuOpened">
+                <span>
+                {{menuItem }}
+              </span>
+            </p>
+        </mat-list-item>
+    </mat-list>
+</mat-list>

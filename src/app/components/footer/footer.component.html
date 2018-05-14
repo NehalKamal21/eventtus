@@ -1,0 +1,6 @@
+<div class="footer">
+    <div class="footerItem" [ngClass]="{'active': item.name == selectedItem}" *ngFor="let item of items" (click)="Select(item)">
+        <img class="icon" [src]="item.icon"> {{item.name}}
+    </div>
+    <mat-icon svgIcon="menu"></mat-icon>
+</div>
